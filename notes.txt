@@ -1,0 +1,4 @@
+Obs: this project first intended to be a practical usage of tutorial: https://www.youtube.com/watch?v=pxofwuWTs7c, which covers basic API usage on py (Django).
+But API service used on it, from dev.locu,is no longer avaliable for new signers, so it cannt be taken along.
+So, despite the initial name and purpose (to provide restaurant localization), dinnerapi now directs to apply some other usage of API.
+Project used https://www.youtube.com/watch?v=gFsIGJR5R8I continues from 27min, url file part
