@@ -4,6 +4,6 @@ from .models import Cliente
 from .serializers import ClienteSerializer
 
 # Create your views here.
-class ClientViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer
+class ClienteViewSet(viewsets.ModelViewSet):
+    queryset = Cliente.objects.all()
+    serializer_class = ClienteSerializer

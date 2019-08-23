@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import CLiente
+from .models import Cliente
 
 # Serializers define the API representation.
 class ClienteSerializer(serializers.ModelSerializer):
     class Meta:
-        model = User
+        model = Cliente
         fields = ['id', 'nome','idade']
